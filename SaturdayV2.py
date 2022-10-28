@@ -133,10 +133,10 @@ if __name__ == "__main__" :
         elif 'check my instagram'in query :
             speak(" boss here is you IG ")
             webbrowser.open("www.instagram.com")            
-        elif 'can you look at my facebook' or 'open facebook' in query :
+        elif ('can you look at my facebook' in query) or ('open facebook' in query) :
             speak(" boss here is you FB ")
             webbrowser.open("www.facebook.com")
-        elif 'what'or 'who'or 'when' or 'why' or 'where' or 'how' or 'search' or 'play' in query:
+        elif ('what' in query) or ('who' in query) or ('when' in query) or ('why' in query) or ('where' in query) or ('how' in query) or ('search' in query) or ('play' in query):
             speak("okay")
             webbrowser.open(query)
 
